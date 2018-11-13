@@ -1,0 +1,17 @@
+.red {
+  background-color: red;
+  width: 100vw;
+  height: 100vh;
+  font-size: 40px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+
+/* Pixels - fine grained control
+Percentage - based on the parents width
+Elements will collapse and expand based
+on what is inside of it - auto is a
+default rule */
