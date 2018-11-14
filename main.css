@@ -1,17 +1,62 @@
-.red {
-  background-color: red;
-  width: 100vw;
-  height: 100vh;
-  font-size: 40px;
+/* width 1280 px */
+
+body {
+    background-color: black;
 }
 
-.blue {
-  background-color: blue;
+.main_menu ul > li, a, .social_icons ul {
+  display: inline;
+  text-decoration: none;
+  color: white;
 }
+
+.main_menu ul >li {
+    word-spacing: 20px;
+}
+
+.header {
+  text-align:center;
+}
+
+.menu_buttons a {
+  color: white;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+    text-align: center;
+    word-spacing: 7px;
+}
+
+p {
+  font-family: ;
+  color: white;
+  text-align:center;
+  line-height: 1.8
+}
+
+  .prices_txt ul > li {
+  text-align:center;
+  color: white;
+
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* Pixels - fine grained control
 Percentage - based on the parents width
 Elements will collapse and expand based
 on what is inside of it - auto is a
-default rule */
+default rule
+Viewport Width + VH -  percentage of browser
+Em - typographic ratio for text sizing mainly
+*/
