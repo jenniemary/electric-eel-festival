@@ -16,7 +16,7 @@ a,
  {
   display: inline;
   text-decoration: none;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Raleway', sans-serif;
   color: white;
   font-size: 20px;
 }
@@ -59,7 +59,7 @@ h3
   color: white;
   text-align: center;
   word-spacing: 9px;
-    letter-spacing: 10px;
+  letter-spacing: 10px;
   font-family: 'Orbitron', sans-serif;
   margin: 15px;
 }
@@ -92,6 +92,7 @@ blockquote p {
   font-family: 'Inconsolata', monospace;
   color: white;
   text-align: center;
+  font-size: 12px;
   line-height: 2.3;
   margin-left: 5px;
 }
@@ -114,7 +115,7 @@ blockquote p {
 .prices_txt ul>li {
   text-align: center;
   color: white;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   line-height: 40px;
 }
@@ -142,7 +143,7 @@ blockquote p {
   color: white;
   text-align:center;
   margin-top: 0px;
-  font-family: 'Inconsolata', monospace;
+  font-family: 'Raleway', sans-serif;
   font-size: 10px;
   font-style:italic;
 }
@@ -157,7 +158,7 @@ blockquote p {
 }
 
 .footer p {
-  font-size: 12px;
+  font-size: 8px;
   color: white;
 
 }
