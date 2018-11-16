@@ -2,46 +2,66 @@
 /* width 1280 px */
 body {
   background-color: black;
-  width: 1280px;
+ width: 1280px;
 }
 
 .header {
   padding-top: 20px;
 }
 
-
-.main_menu ul>li,
-a,
-.social_icons ul
- {
-  display: inline;
-  text-decoration: none;
-  font-family: 'Raleway', sans-serif;
-  color: white;
-  font-size: 20px;
+.menu_buttons,
+.social_icons {
+  padding-left: 0px;
 }
 
 
-.main_menu ul li.login_in_link a {
+
+.logo,
+.main_menu,
+.main_menu ul>li,
+.social_icons,
+.social_icons ul
+ {
+  display: inline-block;
+  align: left;
+}
+
+
+
+.prices_list a,
+.footer a {
+display: inline-block;
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway', sans-serif;
   font-size: 15px;
+}
+
+.prices_list a {
+  font-size: 25px;
+}
+
+
+.social_icons ul {
+  color: white;
+  font-size: 20px;
+  vertical-align: bottom;
+}
+
+.social_icons ul .login_in {
+  font-size: 16px;
   text-decoration:underline;
   border-style: none;
   padding: 7px;
-  color: rgb(66, 255, 113);
+  color: rgb(117, 226, 144);
+  font-family: 'Raleway', sans-serif;
+   line-height: 3;
 }
 
 hr {
   border-width: 2px;
   border-style: solid;
   color: white;
-}
-
-.main_menu ul>li a {
-  margin: 20px;
-  padding: 20px;
-  border-style: solid;
-  border-color: rgb(66, 255, 113);
-  color: rgb(66, 255, 113);
 }
 
 .header {
@@ -58,17 +78,17 @@ h3
 {
   color: white;
   text-align: center;
-  word-spacing: 9px;
-  letter-spacing: 10px;
-  font-family: 'Orbitron', sans-serif;
+  word-spacing: 15px;
+  letter-spacing: 15px;
+  font-family: 'RaleWay', sans-serif;
   margin: 15px;
 }
 
 h1 {
-  font-size: 60px;
-  font-style: bold;
-  margin-top: 50px;
-
+  font-size: 80px;
+  font-weight: bolder;
+  margin-top: 40px;
+font-family: 'Orbitron', sans-serif;
 }
 
 h2 {
@@ -79,44 +99,50 @@ h3 {
   font-size: 28px;
 }
 
-h4, h5 {
+h4,
+h5 {
   color: white;
   text-align: center;
   word-spacing: 7px;
-  font-family: 'Orbitron', sans-serif;
-  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 150px;
+  vertical-align: middle;
+  margin: 0px;
 }
 
+h4 {
+  margin-left: 125px;
+}
+
+h5 {
+  margin-left: 50px;
+}
+
+.quote,
+.block_quote {
+  display: inline-block;
+ padding-left: 40px;
+ padding-right: 40px;
+}
 
 blockquote p {
   font-family: 'Inconsolata', monospace;
   color: white;
   text-align: center;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 2.3;
   margin-left: 5px;
 }
 
-.container, .subscribe{
-  display: inline-block;
-  font-family: 'Inconsolata', monospace;
-  color: black;
-  text-align: center;
-  line-height: 1.8
-}
 
-
-.container h4 {
-  margin-left: 180px;
-  margin-right: 60px;
-}
 
 
 .prices_txt ul>li {
   text-align: center;
   color: white;
   font-family: 'Raleway', sans-serif;
-  font-size: 20px;
+  font-size: 17px;
+  font-weight: bold;
   line-height: 40px;
 }
 
@@ -124,7 +150,7 @@ blockquote p {
   display: inline-block;
   padding: 20px;
   border: 3px solid white;
-  margin: 30px;
+  margin: 20px;
   margin-bottom: 0px;
   margin-top: 0px;
 }
@@ -139,42 +165,86 @@ blockquote p {
   padding-bottom: 10px;
 }
 
-.note p {
-  color: white;
-  text-align:center;
-  margin-top: 0px;
-  font-family: 'Raleway', sans-serif;
-  font-size: 10px;
-  font-style:italic;
-}
+
 
 .prices_list ul {
   text-align: center;
 }
 
+.note {
+  color: white;
+  text-align:center;
+  margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+  font-style:italic;
+}
+
+.images,
+.artists,
+.accomodation,
+.location,
+.transport,
+.experiences {
+  float: left;
+}
+
+.solo_artist img,
+.four_boxes img{
+  float: left;
+  clear: both;
+  overflow: hidden;
+}
+
+
+
+.container h6 {
+  margin-left: 180px;
+  margin-right: 60px;
+}
+
+h6 {
+  color: white;
+  text-align: center;
+  word-spacing: 7px;
+  font-family: 'Orbitron', monospace;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
 .newsletter {
   display: inline-block;
+}
 
+.container, .subscribe {
+  display: inline-block;
+  line-height: 1.8
 }
 
 .footer p {
-  font-size: 8px;
+  font-size: 10px;
   color: white;
+  font-family:'Raleway', sans-serif;
+  font-weight: lighter;
 
 }
 
-.footer ul{
-  display: inline-block;
-  margin-top: 0px;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
+
+.about,
+.socials,
+.image_copyright,
+.menu2,
+.search_button {
+  float: left;
   text-align: center;
-  line-height: 1.5;
+  margin: 25px;
+  line-height: 1.7
 }
 
-
-
+.search_button input{
+  margin-top: 30px;
+  width: 180px;
+}
 
 
 
