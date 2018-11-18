@@ -1,8 +1,7 @@
-
 /* width 1280 px */
 body {
   background-color: black;
- width: 1280px;
+width: 1280px;
 }
 
 .header {
@@ -14,23 +13,18 @@ body {
   padding-left: 0px;
 }
 
-
-
 .logo,
 .main_menu,
 .main_menu ul>li,
 .social_icons,
-.social_icons ul
- {
+.social_icons ul {
   display: inline-block;
   align: left;
 }
 
-
-
 .prices_list a,
 .footer a {
-display: inline-block;
+  display: inline-block;
   text-decoration: none;
   color: white;
   font-family: 'Raleway', sans-serif;
@@ -41,7 +35,6 @@ display: inline-block;
   font-size: 25px;
 }
 
-
 .social_icons ul {
   color: white;
   font-size: 20px;
@@ -50,12 +43,12 @@ display: inline-block;
 
 .social_icons ul .login_in {
   font-size: 16px;
-  text-decoration:underline;
+  text-decoration: underline;
   border-style: none;
   padding: 7px;
   color: rgb(117, 226, 144);
   font-family: 'Raleway', sans-serif;
-   line-height: 3;
+  line-height: 3;
 }
 
 hr {
@@ -74,8 +67,7 @@ hr {
 
 h1,
 h2,
-h3
-{
+h3 {
   color: white;
   text-align: center;
   word-spacing: 15px;
@@ -88,7 +80,7 @@ h1 {
   font-size: 80px;
   font-weight: bolder;
   margin-top: 40px;
-font-family: 'Orbitron', sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
 h2 {
@@ -121,8 +113,8 @@ h5 {
 .quote,
 .block_quote {
   display: inline-block;
- padding-left: 40px;
- padding-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 blockquote p {
@@ -134,9 +126,6 @@ blockquote p {
   margin-left: 5px;
 }
 
-
-
-
 .prices_txt ul>li {
   text-align: center;
   color: white;
@@ -146,7 +135,7 @@ blockquote p {
   line-height: 40px;
 }
 
-.prices_list  ul li{
+.prices_list ul>li {
   display: inline-block;
   padding: 20px;
   border: 3px solid white;
@@ -165,29 +154,19 @@ blockquote p {
   padding-bottom: 10px;
 }
 
-
-
 .prices_list ul {
   text-align: center;
 }
 
 .note {
   color: white;
-  text-align:center;
+  text-align: center;
   margin-top: 20px;
   font-family: 'Raleway', sans-serif;
   font-size: 11px;
-  font-style:italic;
+  font-style: italic;
 }
 
-.images,
-.artists,
-.accomodation,
-.location,
-.transport,
-.experiences {
-  float: left;
-}
 
 .solo_artist img,
 .four_boxes img{
@@ -196,7 +175,15 @@ blockquote p {
   overflow: hidden;
 }
 
-
+.solo_artist img,
+.images,
+.artists,
+.accomodation,
+.location,
+.transport,
+.experiences {
+  float: left;
+}
 
 .container h6 {
   margin-left: 180px;
@@ -216,7 +203,8 @@ h6 {
   display: inline-block;
 }
 
-.container, .subscribe {
+.container,
+.subscribe {
   display: inline-block;
   line-height: 1.8
 }
@@ -224,11 +212,9 @@ h6 {
 .footer p {
   font-size: 10px;
   color: white;
-  font-family:'Raleway', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-weight: lighter;
-
 }
-
 
 .about,
 .socials,
@@ -241,20 +227,15 @@ h6 {
   line-height: 1.7
 }
 
-.search_button input{
+.image_copyright,
+.link p {
+  margin: 0px;
+}
+
+.search_button input {
   margin-top: 30px;
   width: 180px;
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Pixels - fine grained control
 Percentage - based on the parents width
